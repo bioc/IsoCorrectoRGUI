@@ -1,6 +1,6 @@
 Package: IsoCorrectoRGUI
 Title: Graphical User Interface for IsoCorrectoR 
-Version: 1.15.0
+Version: 1.15.1
 Authors@R: c(person("Christian","Kohler", email="christian.kohler@ur.de", role=c("cre","aut")),
     person("Paul","Kuerner",email="Paul.Kuerner@stud.uni-regensburg.de",role=c("aut")),
     person("Paul","Heinrich",email="paul.heinrich@ur.de",role=c("aut")))
@@ -21,5 +21,6 @@ RoxygenNote: 6.1.0
 Suggests: 
     knitr,
     rmarkdown,
-    testthat
+    testthat,
+    BiocStyle
 VignetteBuilder: knitr
